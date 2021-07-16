@@ -1,0 +1,36 @@
+.plansScreen{
+  margin-left: -5px;
+  margin-right: auto;
+}
+.plansScreen_plan {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .plansScreen_plan:hover {
+    opacity:1.5;
+  }
+  .plansScreen_plan button {
+    padding: 10px 20px;
+    color: #fff;
+    height: 3rem;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .plansScreen_info {
+    opacity: 0.8;
+  }
+  .plansScreen_info:hover {
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .plansScreen_plan button {
+      padding: 5px 10px;
+      font-size: 0.7rem;
+    }
+  }
+  
